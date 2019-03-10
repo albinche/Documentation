@@ -77,7 +77,7 @@ int main (int argc, char** argv) {
 Il nous ensuite à compiler grâce à la commande *g++*.
 
 ```sh
-g++ -std=c++11 -Wall -O2 convertImage.cpp -o loadImage `pkg-config --cflags --libs opencv4`
+g++ -std=c++11 -Wall -O2 convertImage.cpp -o convertImage `pkg-config --cflags --libs opencv4`
 ```
 
 Puis à lancer l'application *convertImage* généré :
